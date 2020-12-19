@@ -1,12 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@1&display=swap');
 
-:root{
-    --primary-color : #5B21B6;
+:root {
+    --primary-color: #FBBF24;
+    --dark-gray: #6b7280;
+    --off-white: #F3F4F6;
 }
 
-body{
+body {
     font-family: 'PT Sans', sans-serif;
+    margin: 0rem;
 
+}
+
+hr {
+    margin: 2rem 0rem;
 }
 
 /* container */
@@ -16,25 +23,163 @@ body{
     padding-right: 1rem;
 }
 
-.container-center{
-    max-width:600px;
+.container-center {
+    max-width: 600px;
     margin: auto;
 }
 
 /* links */
 
-.link{
+.link {
+    box-sizing: border-box;
     text-decoration: none;
-    padding : 0.5rem 1rem;
-}
-.link-primary{
-    background-color: var(--primary-color);
-    border-radius: 00.5rem;
-    color :white;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.link-secondary{
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 00.5rem;
+    color: white;
+}
+
+.link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 }
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0.5rem 1rem;
+}
+
+
+
+/* navigation */
+
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .link {
+    color: white;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+
+.navigation .link-active {
+    font-weight: bold;
+
+}
+
+/* header */
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    font-size: 2rem;
+    text-align: center;
+    color: var(--dark-gray);
+}
+
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/* sections */
+
+.section{ 
+    padding: 2rem;
+
+}
+.section h1 {
+    text-align: center;
+
+}
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
+/* Footers */
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 2rem;
+}
+
+.footer .link{
+    color: white ;
+}
+
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+.footer ul{
+    padding-inline-start: 0rem;
+}
+
+
+/* image blogs */
+
+.blog-img{
+    margin-left: -250px;
+    padding: 2rem 2rem;
+}
+
+.p-text{
+    font-size: large;
+    font-weight: bold;
+}
+
+.paragraph{
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+}
+
+
+/* Jesseblogs_images */
+.jesse-img2{
+    margin-left: 400px;
+}
+
+.jesse-img{
+    margin-left: 500px;
+}
+
+
